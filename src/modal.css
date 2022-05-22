@@ -1,0 +1,112 @@
+#modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+#remove-modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+#dfs-modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+#bfs-modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+#dijkstra-modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+#floydWarshall-modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+#astar-modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-container {
+    margin-top: 75px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 36px;
+    justify-content: center;
+}
+
+.node-name-input {
+    display: flex;
+}
+
+.edge-info {
+    display: none;
+    flex-direction: column;
+}
+
+#submit-button {
+    position: absolute;
+    bottom: 36px;
+    right: 25px;
+    z-index: 1000;
+}
+
+#remove-submit-button {
+    position: absolute;
+    bottom: 36px;
+    right: 25px;
+    z-index: 1000;
+}
